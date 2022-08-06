@@ -1,0 +1,47 @@
+/* My Resets */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    color: $text-light;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 16px;
+}
+
+
+/* Flex */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
+
+
+/*  Container */
+.container{
+    margin: 0 auto;
+    padding: 0 32px;
+    height: 200px;
+    width: 200px;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: $text-dark;
+    text-align: center;
+    padding: 3rem;
+}
+
